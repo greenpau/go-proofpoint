@@ -38,9 +38,9 @@ func init() {
 	app = versioned.NewPackageManager("ppcli")
 	app.Description = "Proofpoint API Client"
 	app.Documentation = "https://github.com/greenpau/go-proofpoint/"
-	app.SetVersion(appVersion, "1.0.1")
+	app.SetVersion(appVersion, "1.0.2")
 	app.SetGitBranch(gitBranch, "main")
-	app.SetGitCommit(gitCommit, "7a4a9da")
+	app.SetGitCommit(gitCommit, "3d03a23")
 	app.SetBuildUser(buildUser, "")
 	app.SetBuildDate(buildDate, "")
 }
